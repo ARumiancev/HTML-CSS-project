@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "variables";
+@import "nav";
+@import "header";
+@import "section";
+@import "article";
+@import "testimonials";
+@import "footer";
+
+
+// mygtuko spalva #007bff
+// body fonas #f8f9fa
+
+
+
+
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: $body;
+  font-family: lato;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  padding: 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.548)
+}
+
+@import "mobile";

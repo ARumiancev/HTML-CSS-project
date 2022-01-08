@@ -1,0 +1,26 @@
+section {
+//   background-color: cadetblue;
+  padding: 90px;
+
+  .advantages{
+    max-width: 350px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 50px;
+    i {
+      color: $melyna;
+    font-size: 4rem;
+    padding: 10px
+    }
+    h2 {
+      padding: 8px;
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: rgba(0, 0, 0, 0.562);
+    }
+
+  }
+    
+}

@@ -1,0 +1,71 @@
+@media (min-width: 750px) {
+ 
+  header {
+    .sign-up {
+      width: 60%;
+
+      .user-input {
+    input {
+      width: 55%;
+    }
+
+    button {
+      width: 150px;
+      margin-left: 20px;
+    }
+
+  }
+
+    }
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    grid-template-columns: 1fr 1fr;
+
+        .img {
+        background-size: cover;
+        background-position: center;
+        }
+
+      .img1 {
+        order: 2;
+      }
+
+      .text1 {
+        order: 1;
+      }
+      .img2 {
+        order: 3;
+      }
+
+      .text2 {
+        order: 4;
+      }
+      .img3 {
+        order: 6;
+      }
+
+      .text3 {
+        order: 5;
+      }    
+  }
+
+  .testimonials {
+    flex-direction: row;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    text-align: left;
+  }
+
+}
